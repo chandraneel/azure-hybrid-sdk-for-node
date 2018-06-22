@@ -16,7 +16,6 @@ export {
   CnameRecord,
   SoaRecord,
   CloudError,
-  CloudErrorBody,
   RecordSetListResult
 } from "../models/mappers";
 

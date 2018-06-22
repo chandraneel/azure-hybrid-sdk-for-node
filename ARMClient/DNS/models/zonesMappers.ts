@@ -9,7 +9,6 @@ export {
   Resource,
   BaseResource,
   CloudError,
-  CloudErrorBody,
   ZoneDeleteResult,
   ZoneListResult
 } from "../models/mappers";

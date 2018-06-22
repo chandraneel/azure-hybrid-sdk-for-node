@@ -1,0 +1,17 @@
+import { AvailabilitySets } from "./availabilitySets";
+import { VirtualMachineExtensionImages } from "./virtualMachineExtensionImages";
+import { VirtualMachineExtensions } from "./virtualMachineExtensions";
+import { VirtualMachines } from "./virtualMachines";
+import { VirtualMachineImages } from "./virtualMachineImages";
+import { UsageOperations } from "./usageOperations";
+import { VirtualMachineSizes } from "./virtualMachineSizes";
+import { Images } from "./images";
+import { ResourceSkus } from "./resourceSkus";
+import { VirtualMachineScaleSets } from "./virtualMachineScaleSets";
+import { VirtualMachineScaleSetExtensions } from "./virtualMachineScaleSetExtensions";
+import { VirtualMachineScaleSetRollingUpgrades } from "./virtualMachineScaleSetRollingUpgrades";
+import { VirtualMachineScaleSetVMs } from "./virtualMachineScaleSetVMs";
+import { Disks } from "./disks";
+import { Snapshots } from "./snapshots";
+import { VirtualMachineRunCommands } from "./virtualMachineRunCommands";
+export { AvailabilitySets, VirtualMachineExtensionImages, VirtualMachineExtensions, VirtualMachines, VirtualMachineImages, UsageOperations, VirtualMachineSizes, Images, ResourceSkus, VirtualMachineScaleSets, VirtualMachineScaleSetExtensions, VirtualMachineScaleSetRollingUpgrades, VirtualMachineScaleSetVMs, Disks, Snapshots, VirtualMachineRunCommands };

@@ -2,11 +2,11 @@
 
 const webpack = require("webpack");
 const path = require('path');
-const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 var getConfig = function (env) {
   const config = {
+    mode: "production",
     context: __dirname, // to automatically find tsconfig.json
               
     entry: {
@@ -15,9 +15,8 @@ var getConfig = function (env) {
               './ARMClient/Network/networkManagementClient.ts',
               './ARMClient/Compute/computeManagementClient.ts',
               './ARMClient/Keyvault/keyVaultManagementClient.ts',
-              './ARMClient/Resources/resource/resourceManagementClient.ts',
-              './ARMClient/Resources/subscription/subscriptionClient.ts',
-              './ARMClient/Resources/feature/featureClient.ts',
+              './ARMClient/Resources/resources/resourceManagementClient.ts',
+              './ARMClient/Resources/subscriptions/subscriptionClient.ts',
               './ARMClient/Resources/locks/managementLockClient.ts',
               './ARMClient/DNS/dnsManagementClient.ts'
             ]
