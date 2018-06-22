@@ -1,8 +1,8 @@
-import { ComputeManagementClient } from "./Compute/computeManagementClient";
-import { NetworkManagementClient } from "./Network/networkManagementClient";
-import { StorageManagementClient } from "./Storage/storageManagementClient";
-import { KeyVaultManagementClient } from "./KeyVault/keyVaultManagementClient";
-import { ResourceManagementClient } from "./Resources/resources/resourceManagementClient";
-import { ManagementLockClient } from "./Resources/locks/managementLockClient";
-import { SubscriptionClient } from "./Resources/subscriptions/subscriptionClient";
-export { ComputeManagementClient, NetworkManagementClient, StorageManagementClient, KeyVaultManagementClient, ManagementLockClient, ResourceManagementClient, SubscriptionClient };
+import { ComputeManagementClient, ComputeManagementModels } from "./Compute/computeManagementClient";
+import { NetworkManagementClient, NetworkManagementModels } from "./Network/networkManagementClient";
+import { StorageManagementClient, StorageManagementModels } from "./Storage/storageManagementClient";
+import { KeyVaultManagementClient, KeyVaultManagementModels } from "./KeyVault/keyVaultManagementClient";
+import { ResourceManagementClient, ResourceManagementModels } from "./Resources/resources/resourceManagementClient";
+import { ManagementLockClient, ManagementLockModels } from "./Resources/locks/managementLockClient";
+import { SubscriptionClient, SubscriptionModels } from "./Resources/subscriptions/subscriptionClient";
+export { ComputeManagementClient, ComputeManagementModels, NetworkManagementClient, NetworkManagementModels, StorageManagementClient, StorageManagementModels, KeyVaultManagementClient, KeyVaultManagementModels, ManagementLockClient, ManagementLockModels, ResourceManagementClient, ResourceManagementModels, SubscriptionClient, SubscriptionModels };

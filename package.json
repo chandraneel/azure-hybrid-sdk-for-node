@@ -6,7 +6,7 @@
     "ms-rest-js": "^0.12.301",
     "ts-loader": "^4.4.1"
   },
-  "main": "./azurehybridclient-bundle.js",
+  "main": "./build/azurehybridclient-bundle.js",
   "types": "./build/typings/lib/ARMClient/AzureHybridClient.d.ts",
   "license": "MIT",
   "scripts": {
