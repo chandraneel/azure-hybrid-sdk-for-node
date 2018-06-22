@@ -1,0 +1,23 @@
+{
+  "name": "networkingexperience",
+  "version": "2.0.0",
+  "private": true,
+  "dependencies": {
+    "ms-rest-azure-js": "~0.8.82",
+    "ms-rest-js": "~0.12.291"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "build": "npm run webpack",
+    "build:watch": "watch \"npm run build\" src"
+  },
+  "devDependencies": {
+    "fork-ts-checker-webpack-plugin": "^0.3.0",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.6.2",
+    "watch": "1.0.2",
+    "webpack": "3.11.0",
+    "webpack-env": "^0.8.0",
+    "tslint": "^5.10.0"
+  }
+}

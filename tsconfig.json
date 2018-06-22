@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "alwaysStrict": true,
+      "outDir": "./dist",
+      "module": "esnext",
+      "target": "es5",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "rootDir": ".",
+      "experimentalDecorators": true,
+      "declaration": true,
+      "declarationDir": "./typings/lib",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "es5",
+        "es6",
+        "es7",
+        "esnext",
+        "esnext.asynciterable",
+        "es2015.iterable"
+      ]
+    },
+    "include": [
+      "./ARMClient/"
+    ],
+    "exclude": [
+      "node_modules",
+      "./src/lib/",
+      ".vscode",
+      "build"
+    ]
+  }
