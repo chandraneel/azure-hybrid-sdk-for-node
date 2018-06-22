@@ -1,7 +1,6 @@
 {
-  "name": "networkingexperience",
-  "version": "2.0.0",
-  "private": true,
+  "name": "azure-hybrid-sdk-for-node",
+  "version": "0.0.1",
   "dependencies": {
     "ms-rest-azure-js": "^0.8.82",
     "ms-rest-js": "^0.12.301",
