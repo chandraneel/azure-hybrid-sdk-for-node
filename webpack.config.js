@@ -10,19 +10,10 @@ var getConfig = function (env) {
     context: __dirname, // to automatically find tsconfig.json
               
     entry: {
-      main: [ 
-              './ARMClient/Storage/storageManagementClient.ts',
-              './ARMClient/Network/networkManagementClient.ts',
-              './ARMClient/Compute/computeManagementClient.ts',
-              './ARMClient/Keyvault/keyVaultManagementClient.ts',
-              './ARMClient/Resources/resources/resourceManagementClient.ts',
-              './ARMClient/Resources/subscriptions/subscriptionClient.ts',
-              './ARMClient/Resources/locks/managementLockClient.ts',
-              './ARMClient/DNS/dnsManagementClient.ts'
-            ]
+      main: ['./ARMClient/AzureHybridClient.ts']
     },
     output: {
-      filename: 'ArmClient.sdkBundle.js',
+      filename: 'azurehybridclient-bundle.js',
       path: path.join(__dirname, 'build'),
     },
     resolve: {

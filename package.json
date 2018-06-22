@@ -1,15 +1,26 @@
 {
   "name": "azure-hybrid-sdk-for-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "ms-rest-azure-js": "^0.8.82",
     "ms-rest-js": "^0.12.301",
     "ts-loader": "^4.4.1"
   },
+  "main": "./azurehybridclient-bundle.js",
+  "types": "./build/typings/lib/ARMClient/AzureHybridClient.d.ts",
+  "license": "MIT",
   "scripts": {
     "webpack": "webpack",
     "build": "npm run webpack",
-    "build:watch": "watch \"npm run build\" src"
+    "build:watch": "watch \"npm run build\" ARMClient"
+  },
+  "homepage": "https://github.com/chandraneel/azure-hybrid-sdk-for-node",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chandraneel/azure-hybrid-sdk-for-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chandraneel/azure-hybrid-sdk-for-node/issues"
   },
   "devDependencies": {
     "tslint": "^5.10.0",
