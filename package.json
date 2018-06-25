@@ -1,6 +1,6 @@
 {
   "name": "azure-hybrid-sdk-for-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "ms-rest-azure-js": "^0.8.82",
     "ms-rest-js": "^0.12.301",
