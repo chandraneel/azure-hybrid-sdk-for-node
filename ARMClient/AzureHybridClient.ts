@@ -8,6 +8,7 @@ import { KeyVaultManagementClient, KeyVaultManagementModels } from "./KeyVault/k
 import { ResourceManagementClient, ResourceManagementModels } from "./Resources/resources/resourceManagementClient";
 import { ManagementLockClient, ManagementLockModels } from "./Resources/locks/managementLockClient";
 import { SubscriptionClient, SubscriptionModels } from "./Resources/subscriptions/subscriptionClient";
+import { DnsManagementClient, DnsManagementModels } from "./DNS/dnsManagementClient";
 
 export {
     ComputeManagementClient,
@@ -23,5 +24,7 @@ export {
     ResourceManagementClient,
     ResourceManagementModels,
     SubscriptionClient,
-    SubscriptionModels
+    SubscriptionModels,
+    DnsManagementClient,
+    DnsManagementModels
 };

@@ -2,7 +2,7 @@
     "compilerOptions": {
       "alwaysStrict": true,
       "outDir": "./dist",
-      "module": "esnext",
+      "module": "commonjs",
       "target": "es5",
       "sourceMap": true,
       "moduleResolution": "node",

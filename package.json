@@ -6,12 +6,13 @@
     "ms-rest-js": "^0.12.301",
     "ts-loader": "^4.4.1"
   },
-  "main": "./build/azurehybridclient-bundle.js",
-  "types": "./build/typings/lib/ARMClient/AzureHybridClient.d.ts",
+  "main": "./dist/ARMClient/AzureHybridClient.js",
+  "types": "./typings/lib/ARMClient/AzureHybridClient.d.ts",
   "license": "MIT",
   "scripts": {
     "webpack": "webpack",
     "build": "npm run webpack",
+    "tsc": "tsc -p tsconfig.json",
     "build:watch": "watch \"npm run build\" ARMClient"
   },
   "homepage": "https://github.com/chandraneel/azure-hybrid-sdk-for-node",

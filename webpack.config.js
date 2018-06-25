@@ -6,7 +6,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 var getConfig = function (env) {
   const config = {
-    mode: "production",
+    mode: "development",
     context: __dirname, // to automatically find tsconfig.json
               
     entry: {
@@ -29,10 +29,10 @@ var getConfig = function (env) {
     },
     plugins: [
     ],
-    externals: {
-      "ms-rest-azure-js": "msRestAzure",
-      "ms-rest-js": "msRest"
-    },
+    // externals: {
+    //   "ms-rest-azure-js": "msRestAzure",
+    //   "ms-rest-js": "msRest"
+    // },
     node: {
       fs: false,
       net: false,
@@ -43,14 +43,14 @@ var getConfig = function (env) {
       v8: false,
       Buffer: false
     },
-    target: 'web'
+    target: 'node'
   };
-    config.plugins.push(
-      new UglifyJsPlugin({
-        sourceMap: true,
-        test: /\.js($|\?)/i
-      })
-    );
+    // config.plugins.push(
+    //   new UglifyJsPlugin({
+    //     sourceMap: true,
+    //     test: /\.js($|\?)/i
+    //   })
+    // );
   return config
 }
 
